@@ -3,3 +3,74 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ============================ Header ============================ */
+
+.header{
+    background-color: rgb(0, 69, 0);
+    height: 150px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.titulo{
+    text-decoration: underline;
+    color:azure;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px 40px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 40px;
+}
+
+a.home{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.acomod{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.serv{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.galeria{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+a.contato{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/* ============================ Serviços ============================ */
+
