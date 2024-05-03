@@ -4,6 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color:honeydew;
+}
+
 /* ============================ Header ============================ */
 
 .header{
@@ -74,3 +78,82 @@ a.contato{
 
 /* ============================ Serviços ============================ */
 
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.divimg{
+    display: flex;
+    justify-content: center;
+}
+
+.massagem{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 40px;
+    border-radius: 15%;
+}
+
+.massagemp{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
+
+.spa{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 40px;
+    border-radius: 15%;
+}
+
+.spap{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
+
+.infantil{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 40px;
+    border-radius: 15%;
+}
+
+.infantilp{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
+
+.cozinha{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 40px;
+    border-radius: 15%;
+}
+
+.cozinhap{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
+
+.guia{
+    max-width: 30%;
+    max-height: 30%;
+    padding: 40px;
+    border-radius: 15%;
+}
+
+.guiap{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(158, 158, 158);
+    color: white;
+}
