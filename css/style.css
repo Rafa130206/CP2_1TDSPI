@@ -160,7 +160,36 @@ section{
 
 /* ============================ contato ============================ */
 
+.contatoh1{
+    text-align: center;
+    margin: 20px;
+    font-size: 56px;
+}
 
+legend{
+    font-size: 32px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin: 60px;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    width: 440px;
+}
+
+label { display: inline-block; 
+    width: 100px; 
+    text-align: left; }
+input{
+    font-size: 24px;
+}
 
 /* ============================ footer ============================ */
 
