@@ -13,6 +13,14 @@ section{
     flex-direction: column;
 }
 
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
 /* ============================ Header ============================ */
 
 .header{
@@ -83,14 +91,6 @@ a.contato{
 /* ============================ Home ============================ */
 
 /* ============================ acomodacoes ============================ */
-
-h1{
-    text-align: center;
-    font-size: 40px;
-    margin: 15px;
-    margin-bottom: 40px;
-    text-decoration: underline;
-}
 
 .quartos{
     text-align: center;
@@ -237,6 +237,23 @@ h1{
 
 /* ============================ galeria ============================ */
 
+.fotos{
+    display: flex;
+}
+
+.divfotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10vw;
+}
+
+.imagens{
+    width: 400px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightslategray;
+}
 /* ============================ contato ============================ */
 
 .contatoh1{
